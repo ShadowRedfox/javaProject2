@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.mycompany.javaproject;
+package com.mycompany.javaProject;
 
 import java.util.Scanner;
 import java.awt.*;
@@ -13,16 +13,13 @@ import javax.swing.*;
  *
  * @author Jakub
  */
-public class NewMain {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Gracz gtest = new Gracz ("Komputer");
-        Gra test = new Gra("test", gtest, 100);
-        test.ttt();
         Scanner input = new Scanner(System.in);
         System.out.printf("Imie: \n");
         String text = input.nextLine();
